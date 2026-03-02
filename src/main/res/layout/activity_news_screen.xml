@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layoutDirection="rtl"
+    android:padding="16dp">
+
+    <!-- رأس الصفحة -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bc_S"
+        android:gravity="center"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/App_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_N"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            />
+
+
+        <ImageView
+            android:id="@+id/i_Logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/soccer_player"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- قسم الأخبار -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="آخر الأخبار الرياضية"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- الخبر الأول -->
+    <LinearLayout
+        android:id="@+id/news_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc_S"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="مانشستر سيتي يعلن عن صفقة انتقال جديدة لتعزيز خط الوسط قبل بداية الموسم."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- الخبر الثاني -->
+    <LinearLayout
+        android:id="@+id/news_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc_S"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="برشلونة يواجه تحديات مالية قد تؤثر على خطط الفريق للموسم القادم."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- الخبر الثالث -->
+    <LinearLayout
+        android:id="@+id/news_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc_S"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ليفربول يستعد لمباراة ودية ضد ريال مدريد في جولة أمريكا."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- الخبر الرابع -->
+    <LinearLayout
+        android:id="@+id/news_item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc_S"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="كشفت تقارير صحفية، أن لويس إنريكي مدرب باريس سان جيرمان، قرر ... "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- الخبر الخامس -->
+    <LinearLayout
+        android:id="@+id/news_item5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc_S"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="كشفت تقارير صحفية، أن لويس إنريكي مدرب باريس سان جيرمان، قرر ... "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <!-- زر العودة -->
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="العودة إلى الصفحة الرئيسية"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/bc_S"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

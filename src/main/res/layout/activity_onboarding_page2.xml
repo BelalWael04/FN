@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3b8bca"
+    android:padding="24dp">
+
+    <!-- صورة أو أيقونة توضيحية -->
+    <ImageView
+        android:id="@+id/onboardingImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/soccer_player"
+        android:layout_gravity="center"
+        android:contentDescription="Onboarding Image"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- عنوان الصفحة -->
+    <TextView
+        android:id="@+id/onboardingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="احصل على الإشعارات أولًا"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- وصف مختصر -->
+    <TextView
+        android:id="@+id/onboardingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="لا تفوت أي نتيجة أو خبر مهم بفضل الإشعارات اللحظية. ستصلك تنبيهات عن أهداف المباراة، التشكيلات، والتحديثات الفورية لكل مباراة تتابعها."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

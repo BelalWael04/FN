@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="الرئيسية"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/nav_news"
+        android:title="الأخبار"
+        android:icon="@drawable/ic_news" />
+
+    <item
+        android:id="@+id/nav_matches"
+        android:title="المباريات"
+        android:icon="@drawable/ic_matches" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="الاعدادات"
+        android:icon="@drawable/ic_settings" />
+</menu>
